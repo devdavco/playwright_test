@@ -18,8 +18,6 @@ test.describe('Prueba Login', () => {
         await page.getByPlaceholder('Enter your password').fill("admin123");
 
         await page.getByRole('button', { name: 'Sign In' }).click();
-
-        
         
         //validar lo obtenido
         
